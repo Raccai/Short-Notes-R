@@ -1,7 +1,7 @@
 <script>
     import { scale, fade } from "svelte/transition";
     import { flip } from "svelte/animate";
-    import NoteStore from "../stores/NoteStore";
+    import { NoteStore } from "../stores/NoteStore";
     import NoteDetail from "./NoteDetail.svelte";
 </script>
 

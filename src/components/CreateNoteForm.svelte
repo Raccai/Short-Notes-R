@@ -1,5 +1,5 @@
 <script>
-    import NoteStore from "../stores/NoteStore";
+    import { NoteStore } from "../stores/NoteStore";
     import Button from "../shared/Button.svelte";
     // import { generateID } from "../shared/randomIdGem";
     import { createEventDispatcher } from "svelte";
